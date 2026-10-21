@@ -1,43 +1,28 @@
 :root {
-  --background: oklch(100% 0 0);
-  --foreground: oklch(15% 0.08 260);
-  --card: oklch(100% 0 0);
-  --card-foreground: oklch(15% 0.08 260);
-  --popover: oklch(100% 0 0);
-  --popover-foreground: oklch(15% 0.08 260);
-  --primary: oklch(35% 0.22 260);
-  --primary-foreground: oklch(100% 0 0);
-  --secondary: oklch(92% 0.03 260);
-  --secondary-foreground: oklch(35% 0.22 260);
-  --muted: oklch(92% 0.03 260);
-  --muted-foreground: oklch(45% 0.12 260);
-  --accent: oklch(50% 0.22 245);
-  --accent-foreground: oklch(100% 0 0);
-  --destructive: oklch(57.7% 0.245 27.325);
-  --destructive-foreground: oklch(100% 0 0);
-  --border: oklch(92% 0.01 260);
-  --input: oklch(92% 0.01 260);
-  --ring: oklch(35% 0.22 260);
-  --chart-1: oklch(35% 0.22 260);
-  --chart-2: oklch(50% 0.22 245);
-  --chart-3: oklch(45% 0.18 235);
-  --chart-4: oklch(55% 0.12 230);
-  --chart-5: oklch(65% 0.08 220);
-  --radius: 0.625rem;
-  --sidebar: oklch(35% 0.22 260);
-  --sidebar-foreground: oklch(100% 0 0);
-  --sidebar-primary: oklch(50% 0.22 245);
-  --sidebar-primary-foreground: oklch(100% 0 0);
-  --sidebar-accent: oklch(30% 0.18 260);
-  --sidebar-accent-foreground: oklch(100% 0 0);
-  --sidebar-border: oklch(30% 0.18 260);
-  --sidebar-ring: oklch(50% 0.22 245);
+  --primary-color: #3f7863;
+  --primary-dark-color: #244538;
+  --secondary-color: #ffcf49;
+  --accent-color: #fef8eb;
+  --neutral-color: #fff;
+  --muted-color: #e4e4e5;
+  --muted-light-color: #bdbdbe56;
+  --destructive-color: #d53b3b;
+
+  --font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    Segoe UI Symbol, "Noto Color Emoji";
 
   --rounded-sm: 0.125rem;
   --rounded-md: 0.375rem;
   --rounded-lg: 0.5rem;
   --rounded-xl: 0.75rem;
   --rounded-full: 9999px;
+
+  --max-width: 1100px;
+
+  --shadow-tailwind:  rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  --shadow-card: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  --shadow-hover: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
   --transition: all 0.3s ease-in-out;
 }
