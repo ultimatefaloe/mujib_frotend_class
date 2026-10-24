@@ -1,12 +1,14 @@
 :root {
   --primary-color: #3f7863;
   --primary-dark-color: #244538;
+  --primary-light-color: #53a282;
   --secondary-color: #ffcf49;
   --accent-color: #fef8eb;
   --neutral-color: #fff;
   --muted-color: #e4e4e5;
   --muted-light-color: #bdbdbe56;
   --destructive-color: #d53b3b;
+  --text-dark-color: #1f2937;
 
   --font-family:
     ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
