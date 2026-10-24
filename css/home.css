@@ -73,6 +73,14 @@
   .hero-left p {
     font-size: 1.6rem;
   }
+  .top-right {
+    top: 0;
+    right: 0;
+  }
+  .bottom-left {
+    bottom: 0;
+    left: 0;
+  }
 }
 
 /* feature section style */
