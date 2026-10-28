@@ -35,7 +35,7 @@
         <!-- remove open to open-sidebar  -->
         <div
           class="open-sidebar-btn"
-          onclick="alert('You just click on open menu button')"
+          id="open-sidebar-btn"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -101,9 +101,9 @@
 
         <!-- mobile nav -->
         <!--  display inline prevent the property width from taking effect -->
-        <nav class="sidebar">
+        <nav class="sidebar" id="sidebar">
           <!-- add close icon to sidebar, to allow use to close the side bar, and change the name from close to close-sidebar -->
-          <div class="close-sidebar-btn">
+          <div class="close-sidebar-btn" id="close-sidebar-btn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="2em"
@@ -142,25 +142,27 @@
       <section class="center-content">
         <div class="max-width hero-content">
           <div class="hero-left">
-            <div class="image-con">
-              <img src="./images/favicon.png" alt="brand logo" />
+            <div class="image-con ">
+              <img src="./images/favicon.png" alt="brand logo" class="animate-spin" />
             </div>
             <h1>Kiddie's Cake</h1>
             <p>
               Delightful cakes, cookies, and brownies made with love for every
               special occasion. Creating sweet memories one bite at a time.
             </p>
+
             <div class="cta">
-              <button class="btn btn-primary">
+              <a href="./product.html" class="btn btn-primary">
                 Browser Products
                 <i class="fa fa-cart-plus" aria-hidden="true"></i>
-              </button>
-              <button class="btn btn-ghost">
+              </a>
+              <a href="./cart.html" class="btn btn-ghost">
                 <i class="fa fa-cart-plus" aria-hidden="true"></i>
                 View Cart
-              </button>
+              </a>
             </div>
           </div>
+
           <div class="hero-right relative">
             <img src="./images/cake.png" alt="Brand product cake advert" />
             <div class="absolute top-right light-bg animate-bounce">
@@ -340,7 +342,7 @@
                   <buttton class="btn btn-primary btn-rounded-full"
                     >Add to Cart</buttton
                   >
-                </div>
+                </div>@
               </div>
             </div>
 
@@ -398,7 +400,6 @@
       </section>
 
       <!-- sweet memory section -->
-      <!-- feature threat -->
       <section class="center-content sweet-section">
         <div class="max-width sweet-content">
           <div class="sweet-heading">
@@ -581,6 +582,16 @@
           </div>
         </div>
       </section>
+
+
+      <!-- testing section -->
+       <section class="center-content">
+        <div class="max-width testing-content">
+          <!-- this is where im going to have all my content that will appear in this section -->
+        </div>
+       </section>
     </main>
+
+    <script type="module" src="./js/sidebar.js"></script>
   </body>
 </html>
