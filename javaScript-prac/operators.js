@@ -99,3 +99,12 @@ console.log("Is eligible for competition: " + isEligibleForCompetition);
 
 let isNotEligibleForCompetition = !(isEligibleForCompetition);
 console.log("Is not eligible for competition: " + isNotEligibleForCompetition);
+
+
+
+let mujibAge = 25;
+// let newAge = mujibAge + 1
+
+// mujibAge = newAge
+
+ mujibAge += 1
